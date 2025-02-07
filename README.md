@@ -27,21 +27,4 @@ sudo chmod 777 permission.bash
 
 ※원클릭 셋팅 파일(```permission.sh```)은 빌드(```catkin_make```) 및 사용하시는 쉘(bash or zsh)에 맞춰서 쉘의 환경설정 파일(```~/.bashrc``` or ```~/.zshrc```)에 현재 워크스페이스(```$Current_path```)의 경로를 설정(```source devel/setup.bash``` or ```source devel/setup.zsh```)합니다.
 
-
-
-
-6. 터미널 종료 후 다시 실행하여 ```roscore``` 명령어를 다음과 같이 입력하여 실행합니다.
-
-```
-roscore
-```
-7. 예제를 실행합니다.
-```
-rosrun limo_opencv 1.grayscale.py
-```
-
-7. ```rostopic list```를 입력하여, 코드가 실행되어 있는지 확인합니다.
-
-```
-rostopic list
 ```
